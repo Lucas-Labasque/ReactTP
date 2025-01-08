@@ -1,0 +1,130 @@
+.movie-detail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.movie-detail-main {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.movie-detail-poster {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-detail-content {
+    flex: 1.2;
+}
+
+.movie-detail-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.movie-detail-content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.wishlist-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.wishlist-button:hover {
+    background-color: #ff7eb3;
+}
+
+.similar-movies-sidebar {
+    flex: 1;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    max-height: 500px;
+    overflow-y: auto;
+    max-height: 430px;
+}
+
+.similar-movies-sidebar h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.similar-movie-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.similar-movie-poster {
+    max-width: 50px;
+    border-radius: 5px;
+}
+
+.similar-movie-title {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.similar-movie-title:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Acteurs */
+.actor-detail-content {
+    margin-top: 20px;
+}
+
+.actor-detail-content h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.actor-card {
+    text-align: center;
+    max-width: 120px;
+}
+
+.actor-photo {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.actor-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.actor-character {
+    font-size: 12px;
+    color: #666;
+}

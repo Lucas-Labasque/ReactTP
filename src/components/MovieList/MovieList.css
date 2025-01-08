@@ -1,0 +1,26 @@
+.movie-list-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.movie-list-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.movie-list-search-bar {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.movie-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
