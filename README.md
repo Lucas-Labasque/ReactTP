@@ -53,7 +53,7 @@ Suivez ces étapes pour cloner et exécuter le projet localement :
 ### Étapes
 1. **Clonez le projet** :
    ```bash
-   git clone [https://github.com/Lucas-Labasque/ReactTP.git](https://github.com/Lucas-Labasque/ReactTP.git)
+   git clone https://github.com/Lucas-Labasque/ReactTP.git
    cd ReactTP
    ```
 
